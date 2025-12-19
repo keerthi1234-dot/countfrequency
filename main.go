@@ -17,6 +17,7 @@ func countfrequency(num []int){
 	for k,v := range countmap{
 		if v>1{
 			fmt.Printf("%d appears %d times",k,v)
+			fmt.Printf("changes added")
 		}
 	}
 
